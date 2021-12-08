@@ -1,0 +1,68 @@
+public private protected default 
+package 
+final,static 
+
+
+inheritance 
+abstraction
+interface
+exception
+thread
+jdbc 
+
+
+-----------------------------------------------------------
+
+firstName , rollNum 
+
+
+scope:-	
+	instance variable ---> per instance copy --> n object -> n copy 
+	static variable   ---> class variable -- access using class name -- all objects are shared this  
+	local variable    ---> 
+
+access specifier :- 	
+public 
+private
+protected 
+default* 
+
+
+	A - private add, default sub,protected mul,public div
+	
+	private -- within the class 
+	default -- class -- outside the class -- not outside the package   
+	protected - "" ------ "" ---------------- outside the package but relation [ inheritance ] 
+	public  -- "" ------ "" ------------------- outside the package no need of inheritance
+
+
+							private			default			protected			public 
+same class					Y				Y				Y					Y
+same package,non subclass	N				Y				Y					Y	
+diff pacakage,non subclass  N				N				N					Y 
+diff pacakte,sub class		N				N				Y					Y 
+
+		
+-----------------------------------------------------------
+constructor:-	
+		its a special method which has same name as class name. 
+		it must not have any return type.
+		constructor is used to init. instance variable.
+		
+		1) implicit - default [ no argument ]
+		2) explicit 
+				2.1 - default - no argument 
+				2.2 - argument - parameterized 
+		it will call automatically when we create instance.
+
+
+
+
+
+
+
+
+
+
+
+
