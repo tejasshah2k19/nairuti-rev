@@ -7,8 +7,11 @@ inheritance
 abstraction
 interface
 exception
+
+
 thread
 jdbc 
+collections 
 
 
 -----------------------------------------------------------
@@ -57,8 +60,12 @@ constructor:-
 
 
 
+-----------------------------------------------------------
+inheritance:-	
 
-
+	overloading 
+	overriding 
+	
 
 
 
