@@ -66,6 +66,72 @@ inheritance:-
 	overloading 
 	overriding 
 	
+-----------------------------------------------------------------
+collections :- 
+
+	1) collection - topic 
+	2) Collections - class 
+	3) Collection - interface 
+	
+	
+	
+	
+	
+	       Collection(I) ---non primitive 	
+List(I) 		Queue(I)			Set(I)	 			*Map(I) 
+ArrayList	  PriorityQueue 		HashSet				HashMap
+Vector							    TreeSet				TreeMap 
+
+
+unique
+duplicate
+ordered
+unordered
+sorted
+unsorted 
+
+-----------------------------------------------------------------
+
+ArrayList -- duplicate - ordered [  non-synchronized ] [ all at once ] 
+Vector  --   duplicate - ordered  [ synchronized ]     [ turn by turn ] 
+
+
+-------------------------------------------------------------------------
+
+ContactApp:-> 
+	
+	contact --> 
+		name 
+		contactNum 
+		city 
+		
+	
+	Add Contact 
+	List Contacts 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
